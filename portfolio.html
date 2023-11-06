@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My folio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <!--owl carousel linkup starts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!--owl carousel linkup ends-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body onload="pLoader()">
+    <!--(loader starts)-->
+    <div id="wrapLoader">
+        <div id="pLoader">
+            
+        </div>
+    </div>
+    <!--(loader ends)-->
+    <!--(folio header starts)-->
+    <div class="folioHeader">
+        <header>
+            <!--(navigation bar starts)-->
+            <nav>
+                <!--(text logo starts)-->
+                <div class="textLogo">
+                    <a href="index.html">
+                        <!--(first name starts)-->
+                        <span>shahab</span>
+                        <!--(first name ends)-->
+                        <!--(last name starts)-->
+                        <span>rakib</span>
+                        <!--(last name ends)-->
+                    </a>
+                </div>
+                <!--(text logo ends)-->
+                <!--(menu item starts)-->
+                <div id="menuItemsId" class="menuItems">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="resume.html">resume</a></li>
+                        <li><a class="active" href="portfolio.html">portfolio</a></li>
+                        <li><a href="service.html">service</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+                <!--(menu item ends)-->
+                <!--(menu icon starts)-->
+                <div id="menuIconsId" class="menuIcon">
+                    <div class="bar1"></div>
+                    <div class="bar2">
+                        <div class="bar2child"></div>
+                    </div>
+                    <div class="bar3"></div>
+                </div>
+                <!--(menu icon ends)-->
+            </nav>
+            <!--(navigation bar ends)-->
+        </header>
+    </div>
+    <!--(folio header ends)-->
+    <!--(folio elements starts)-->
+    <div class="folioElements animate__animated animate__fadeInDownBig">
+        <!--(portfolio section starts for first project)-->
+        <div class="portfolioSection">
+            <div class="portfolioSectionHeader">
+                <img src="images/avatar1.png" alt="Section header">
+                <p>Project name: First</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="myWorkContainer">
+                        <video controls>
+                            <source src="videos/video.mp4" type="video/mp4">
+                        </video>
+                        <p><a href="portfolio.html">live preview</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="myWorkContainer">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><!--(first photo for first project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                            <div class="item"><!--(second photo for first project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                            <div class="item"><!--(third photo for first project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--(portfolio section ends for first project)-->
+        <!--(portfolio section starts for second project)-->
+        <div class="portfolioSection">
+            <div class="portfolioSectionHeader">
+                <img src="images/avatar1.png" alt="Section header">
+                <p>Project name: Second</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="myWorkContainer">
+                        <video controls>
+                            <source src="videos/video.mp4" type="video/mp4">
+                        </video>
+                        <p><a href="portfolio.html">live preview</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="myWorkContainer">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><!--(first photo for second project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                            <div class="item"><!--(second photo for second project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                            <div class="item"><!--(third photo for second project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--(portfolio section ends for second project)-->
+        <!--(portfolio section starts for third project)-->
+        <div class="portfolioSection">
+            <div class="portfolioSectionHeader">
+                <img src="images/avatar1.png" alt="Section header">
+                <p>Project name: Third</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="myWorkContainer">
+                        <video controls>
+                            <source src="videos/video.mp4" type="video/mp4">
+                        </video>
+                        <p><a href="portfolio.html">live preview</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="myWorkContainer">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><!--(first photo for third project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                            <div class="item"><!--(second photo for third project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                            <div class="item"><!--(third photo for third project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--(portfolio section ends for third project)-->
+        <!--(portfolio section starts for fourth project)-->
+        <div class="portfolioSection">
+            <div class="portfolioSectionHeader">
+                <img src="images/avatar1.png" alt="Section header">
+                <p>Project name: Fourth</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="myWorkContainer">
+                        <video controls>
+                            <source src="videos/video.mp4" type="video/mp4">
+                        </video>
+                        <p><a href="portfolio.html">live preview</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="myWorkContainer">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><!--(first photo for fourth project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                            <div class="item"><!--(second photo for fourth project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                            <div class="item"><!--(third photo for fourth project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--(portfolio section ends for fourth project)-->
+        <!--(portfolio section starts for fifth project)-->
+        <div class="portfolioSection">
+            <div class="portfolioSectionHeader">
+                <img src="images/avatar1.png" alt="Section header">
+                <p>Project name: Fifth</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="myWorkContainer">
+                        <video controls>
+                            <source src="videos/video.mp4" type="video/mp4">
+                        </video>
+                        <p><a href="portfolio.html">live preview</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="myWorkContainer">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><!--(first photo for fifth project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                            <div class="item"><!--(second photo for fifth project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                            <div class="item"><!--(third photo for fifth project)-->
+                                <div>
+                                    <img src="images/portfolio.PNG" alt="Work Item">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--(portfolio section ends for fifth project)-->
+    </div>
+    <!--(folio elements ends)-->
+    <!--(folio footer starts)-->
+    <div class="folioFooter">
+        <footer>
+            <p>© 2023, All rights reserved by Shahab Rakib.</p>
+        </footer>
+    </div>
+    <!--(folio footer ends)-->
+    <script src="https://kit.fontawesome.com/38212b922b.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <!--owl carousel linkup starts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--owl carousel linkup ends-->
+    <script src="js/portfolio.js"></script>
+    <script src="js/media_query.js"></script>
+</body>
+</html>
